@@ -1,0 +1,3 @@
+-Doracle.mds.cache=simple
+-Djavax.xml.acessExternalSchema=all
+
