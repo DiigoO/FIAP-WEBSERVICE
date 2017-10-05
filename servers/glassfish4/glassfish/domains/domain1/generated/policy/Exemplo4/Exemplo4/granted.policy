@@ -1,0 +1,15 @@
+/* AUTOMATICALLY GENERATED ON Wed Oct 04 22:25:52 BRT 2017*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.WebUserDataPermission "/";
+  permission javax.security.jacc.WebResourcePermission "/";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "**";
+  permission javax.security.jacc.WebRoleRefPermission "", "**";
+  permission javax.security.jacc.WebRoleRefPermission "br.com.fiap.rs.exemplos.Aplicacao", "**";
+  permission javax.security.jacc.WebRoleRefPermission "default", "**";
+};
+
